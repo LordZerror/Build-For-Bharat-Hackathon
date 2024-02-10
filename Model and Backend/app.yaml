@@ -1,0 +1,10 @@
+runtime: python310  # or another supported version
+entrypoint: uvicorn semantic-search-api:app --host=0.0.0.0 --port=$PORT
+env: standard
+
+# Optional: Increase instance class for more resources (e.g., B2, B4)
+# instance_class: B1
+
+handlers:
+- url: /.*
+  script: auto

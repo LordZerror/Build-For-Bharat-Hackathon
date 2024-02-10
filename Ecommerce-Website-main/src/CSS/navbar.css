@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(10, 162, 147);
+    display: flex;
+    justify-content: space-around;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(26, 220, 241) ;
+}
+
+h4{
+    transition-duration: 0.7s;
+}
+
+h4:hover{
+    color:  rgb(26, 220, 241);
+}
+
+.header--buttons{
+    display: flex;
+    margin-top: 2px;
+}
+
+.logo{
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.search-bar{
+    height: 36px;
+    width: 500px;
+    margin-top: 5px;
+    background-color:  rgb(255, 255, 255);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-button-icon{
+    margin-top: 5px;
+}
+
+.search-button{
+    height: 36px;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: -30px;
+    background-color:  rgb(255, 255, 255);
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+}
+
+.cart{
+    height: 36px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color:  rgb(10, 162, 147);
+    cursor: pointer;
+    border: none;
+    position: relative;
+}
+
+.auth{
+    height: 36px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 50px;
+    background-color:  rgb(10, 162, 147);
+    cursor: pointer;
+    border: none;
+    align-items:center;
+    justify-content: center;
+}
+
+.cart-annotation{
+    color:white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.auth-annotation{
+    color:white;
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+.search--section{
+    display: flex;
+    align-items: center;
+}
+
+.counter{
+    background-color: red;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: white;
+    font-size: 11px;
+    margin-left: 75px;
+    margin-top: -40px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.login-register-option{
+    margin-left: -110px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.unordered-list{
+    display: none;
+}
+
+.auth--button:hover .unordered-list{
+    display: block;
+}
+
+.list{
+    background-color:  rgb(10, 162, 147);
+    color: white;
+    border-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:10px;
+    display: inline-block;
+    min-width: 120px;
+}
+
+.list:hover{
+    background-color: aliceblue;
+    color:rgb(10, 162, 147);
+    cursor: pointer;
+}
+
+
+
+
+

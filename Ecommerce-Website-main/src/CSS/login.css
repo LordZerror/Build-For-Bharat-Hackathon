@@ -1,0 +1,49 @@
+.login--segment{
+    height: 700px;
+    background-color:  aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.login--component{
+    max-width: 300px;
+    height: 250px;
+    margin-top: 250px;
+    margin-left: 650px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.login--email-address{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.login--password{
+    margin-bottom: 20px;
+}
+
+.login--sign-up{
+    margin-bottom: 20px;
+}
+
+.login--button{
+    border: none;
+    background-color: rgb(10, 162, 147);
+    color: white;
+    height: 35px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.logo--login{
+    color: rgb(10, 162, 147);
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

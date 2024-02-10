@@ -1,0 +1,103 @@
+.Register--segment{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    background-color:  aliceblue;
+}
+
+.shopping--experience{
+    color: rgb(10, 162, 147);
+}
+
+.Register--quote{
+    margin-top: 250px;
+    width: 400px;
+    display: inline;
+    margin-left: 200px;
+}
+
+.Register--component{
+    max-height: 350px;
+    max-width: 250px;
+    margin-top: 250px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 250px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.first--name-last--name{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.f-name{
+    max-width: 100px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.l-name{
+    max-width: 100px;
+}
+
+.register--password{
+    margin-bottom: 20px;
+    margin-left: -30px;
+  
+}
+
+.register--email-address{
+    margin-bottom: 20px;
+    margin-left: -35px;
+   
+}
+
+.e-mail{
+    height: 35px;
+    width: 210px;
+    margin-left: 35px;
+}
+
+.pwd{
+    height: 35px;
+    width: 210px;
+    margin-left: 35px;
+}
+
+.register--sign-up{
+    margin-bottom: 20px;
+}
+
+.or--sign-up--with{
+    margin-bottom: 20px;
+}
+
+.social--credentials{
+    margin-bottom: 20px;
+}
+
+.register--button{
+    border: none;
+    background-color: rgb(10, 162, 147);
+    color: white;
+    height: 35px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.or--sign-up--with{
+    margin-left: -5px;
+}
+
+
+
